@@ -1,5 +1,4 @@
-import React, { useEffect } from 'react';
-import Prism from 'prismjs';
+import React from 'react';
 import '../../prism.css';
 const nodeClass = () => {
   return (

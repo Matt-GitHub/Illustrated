@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import NodeClassCode from '../../Code/Setup/nodeClass';
 import Prism from 'prismjs';
 import NodeVideo from '../videos/videoJS';
-import useAsset from '../../Hooks/FetchAsset';
 import useUrl from '../../generateVideoUrl';
 
 const ReactMarkdown = require('react-markdown');
