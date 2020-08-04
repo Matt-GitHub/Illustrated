@@ -1,4 +1,4 @@
-You can find this app deployed on IllustratedJS.io[https://illustratedjs.io/]
+You can find this app deployed on [Illustrated JS](https://illustratedjs.io/)
 
 ## Technology Used
 1. JavaScript
