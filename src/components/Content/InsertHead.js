@@ -6,9 +6,7 @@ const InsertHead = ({ content }) => {
   useEffect(() => {
     Prism.highlightAll();
   }, [content]);
-  return content.isLoading ? (
-    '...Loading'
-  ) : content.isError ? (
+  return content.isLoading ? null : content.isError ? (
     content.error.message
   ) : (
     <main>

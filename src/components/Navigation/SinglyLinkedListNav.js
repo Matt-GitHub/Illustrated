@@ -2,9 +2,8 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const SinglyLinkedListNav = ({ navList }) => {
-  return navList.isLoading ? (
-    '...Loading'
-  ) : navList.isError ? (
+  console.log('loading nav');
+  return navList.isLoading ? null : navList.isError ? (
     navList.error.message
   ) : (
     <>

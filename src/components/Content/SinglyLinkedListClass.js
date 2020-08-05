@@ -9,9 +9,7 @@ const SinglyLinkedListClass1 = ({ content }) => {
     Prism.highlightAll();
   }, [content]);
   const assetUrl = useUrl();
-  return content.isLoading ? (
-    '...Loading'
-  ) : content.isError ? (
+  return content.isLoading ? null : content.isError ? (
     content.error.message
   ) : (
     <main>

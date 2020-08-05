@@ -1,9 +1,7 @@
 import React from 'react';
 const ReactMarkdown = require('react-markdown');
 const Overview = ({ content }) => {
-  return content.isLoading ? (
-    '...Loading'
-  ) : content.isError ? (
+  return content.isLoading ? null : content.isError ? (
     content.error.message
   ) : (
     <main>

@@ -3,13 +3,10 @@ import InsertAtIndexCode from '../../Code/Insert/InsertAtIndex';
 import Prism from 'prismjs';
 const ReactMarkdown = require('react-markdown');
 const InsertAtIndex = ({ content }) => {
-  console.log('check this', content.codeSnippet?.content[0]?.content[0]?.value);
   useEffect(() => {
     Prism.highlightAll();
   }, [content]);
-  return content.isLoading ? (
-    '...Loading'
-  ) : content.isError ? (
+  return content.isLoading ? null : content.isError ? (
     content.error.message
   ) : (
     <main>

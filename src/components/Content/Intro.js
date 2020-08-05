@@ -1,9 +1,8 @@
 import React from 'react';
 
 const Intro = ({ content }) => {
-  return content.isLoading ? (
-    '...Loading'
-  ) : content.isError ? (
+  console.log('loading intro');
+  return content.isLoading ? null : content.isError ? (
     content.error.message
   ) : (
     <main>

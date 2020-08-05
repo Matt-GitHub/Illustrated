@@ -13,9 +13,7 @@ const NodeClass = ({ content }) => {
   // const asset = useAsset();
   const assetUrl = useUrl();
   console.log('assetUrl', assetUrl);
-  return content.isLoading ? (
-    '...Loading'
-  ) : content.isError ? (
+  return content.isLoading ? null : content.isError ? (
     content.error.message
   ) : (
     <main>
