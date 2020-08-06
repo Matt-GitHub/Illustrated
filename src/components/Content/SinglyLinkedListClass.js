@@ -10,7 +10,7 @@ const SinglyLinkedListClass1 = ({ content }) => {
   }, [content]);
   const assetUrl = useUrl();
   return content.isLoading ? (
-    '...Loading'
+    '...Loading SLL CLASS'
   ) : content.isError ? (
     content.error.message
   ) : (

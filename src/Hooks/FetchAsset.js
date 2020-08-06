@@ -3,7 +3,7 @@ import axios from 'axios';
 require('dotenv').config();
 function useAsset() {
   return useQuery(
-    'sll asset',
+    'media assets',
     () => {
       return axios
         .get(

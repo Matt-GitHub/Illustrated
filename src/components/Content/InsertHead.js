@@ -7,7 +7,7 @@ const InsertHead = ({ content }) => {
     Prism.highlightAll();
   }, [content]);
   return content.isLoading ? (
-    '...Loading'
+    '...Loading Head'
   ) : content.isError ? (
     content.error.message
   ) : (

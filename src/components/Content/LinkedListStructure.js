@@ -2,7 +2,7 @@ import React from 'react';
 const ReactMarkdown = require('react-markdown');
 const LinkedListStructure = ({ content }) => {
   return content.isLoading ? (
-    '...Loading'
+    '...Loading Linked List Structure'
   ) : content.isError ? (
     content.error.message
   ) : (

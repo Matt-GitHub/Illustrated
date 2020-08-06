@@ -7,7 +7,7 @@ const InsertMiddle = ({ content }) => {
     Prism.highlightAll();
   }, [content]);
   return content.isLoading ? (
-    '...Loading'
+    'Loading Middle'
   ) : content.isError ? (
     content.error.message
   ) : (
