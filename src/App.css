@@ -44,7 +44,7 @@ code {
 }
 
 .activeLink {
-  color: rgb(223, 19, 12);
+  border-bottom: 2px solid rgb(0, 255, 255);
 }
 
 .course {

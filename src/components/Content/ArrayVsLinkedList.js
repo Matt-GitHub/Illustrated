@@ -2,7 +2,7 @@ import React from 'react';
 const ReactMarkdown = require('react-markdown');
 const ArrayVsLinkedList = ({ content }) => {
   return content.isLoading ? (
-    '...Loading'
+    '...Loading AVL'
   ) : content.isError ? (
     content.error.message
   ) : (

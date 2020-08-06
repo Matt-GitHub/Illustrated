@@ -2,7 +2,7 @@ import React from 'react';
 
 const Intro = ({ content }) => {
   return content.isLoading ? (
-    '...Loading'
+    '...Loading INTRO'
   ) : content.isError ? (
     content.error.message
   ) : (

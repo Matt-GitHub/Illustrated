@@ -7,7 +7,7 @@ const InsertTail = ({ content }) => {
     Prism.highlightAll();
   }, [content]);
   return content.isLoading ? (
-    '...Loading'
+    '...Loading Tail'
   ) : content.isError ? (
     content.error.message
   ) : (

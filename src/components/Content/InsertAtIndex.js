@@ -8,7 +8,7 @@ const InsertAtIndex = ({ content }) => {
     Prism.highlightAll();
   }, [content]);
   return content.isLoading ? (
-    '...Loading'
+    '...Loading Index'
   ) : content.isError ? (
     content.error.message
   ) : (
