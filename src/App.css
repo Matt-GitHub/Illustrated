@@ -6,9 +6,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* background-color: white; */
-  /* color: rgb(42, 46, 48); */
-  color: RGB(212, 212, 212);
-  background-color: #000000;
+  color: rgb(42, 46, 48);
+  /* color: RGB(212, 212, 212); */
+  background-color: white;
   /* background-color: rgb(250, 243, 220); */
 }
 
@@ -23,11 +23,7 @@ code {
 .courseName {
   font-size: 4rem;
   padding-left: 2%;
-  color: rgb(0, 255, 255);
-}
-
-.jsTitle {
-  color: rgb(223, 19, 12);
+  color: rgb(52, 85, 219);
 }
 
 .mainTitle {
@@ -39,12 +35,12 @@ code {
 }
 
 .subTitle {
-  color: rgb(0, 255, 255);
+  color: rgb(52, 85, 219);
   font-size: 2.1rem;
 }
 
 .activeLink {
-  border-bottom: 2px solid rgb(0, 255, 255);
+  border-bottom: 3px solid rgb(52, 85, 219);
 }
 
 .course {
@@ -54,7 +50,7 @@ code {
 
 .homeLink {
   text-decoration: none;
-  color: rgb(0, 255, 255);
+  color: rgb(52, 85, 219);
 }
 
 .content {
@@ -97,19 +93,19 @@ code {
 .courseNavigation {
   width: 20%;
   position: fixed;
-  color: RGB(212, 212, 212);
+  color: rgb(42, 46, 48);
 }
 
 .courseNavigation.li {
   list-style-type: none;
-  color: RGB(212, 212, 212);
+  color: rgb(42, 46, 48);
 }
 
 .courseLink {
   font-size: 1.6rem;
   line-height: 2;
   text-decoration: none;
-  color: RGB(212, 212, 212);
+  color: rgb(42, 46, 48);
 }
 
 .courseLinkListItem {
