@@ -46,7 +46,13 @@ code {
 .activeLink {
   border-bottom: 2px solid rgb(0, 255, 255);
 }
-
+/* strong {
+  color: black;
+  border: 0.5px solid white;
+  border-radius: 10%;
+  padding: 1px 6px;
+  background-color: rgba(255, 255, 255, 0.9);
+} */
 .course {
   width: 50%;
   margin: 0 auto;
