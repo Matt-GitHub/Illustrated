@@ -39,7 +39,7 @@ const SinglyLinkedList = () => {
         <Route path="/singlyLinkedList/NodeClass">
           <NodeClass content={queryContent} />
         </Route>
-        <Route path="/singlyLinkedList/SinglyLinkedListClass">
+        <Route path="/singlyLinkedList/LinkedListClass">
           <SinglyLinkedListClass1 content={queryContent} />
         </Route>
         <Route path="/singlyLinkedList/InsertHead">
