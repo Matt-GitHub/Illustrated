@@ -10,7 +10,7 @@ const Greeting = () => {
           help developers overcome the struggle of "Mastering the Coding
           Interview"
         </span>
-        <h3>Core principles guiding the development of this project </h3>
+        <h3>Principles guiding the development of this project </h3>
         <p>
           {' '}
           Computer Science should be accessible and approchable for those
